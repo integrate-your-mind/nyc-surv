@@ -185,7 +185,7 @@ PHILLY_DISTRICTS = {
 CITIES = {
     "New York City": {
         "data_source": "local",
-        "data_path": "decode-surveillance-nyc/data/",
+        "data_path": "data/nyc",
         "center": {"lat": 40.7128, "lon": -74.0060},
         "zoom": 10,
         "region_col": "Borough",
@@ -209,6 +209,7 @@ CITIES = {
     },
     "Philadelphia": {
         "data_source": "composite",
+        "data_path": "data/philadelphia",
         "center": {"lat": 39.9526, "lon": -75.1652},
         "zoom": 12,
         "region_col": "District",

@@ -24,6 +24,8 @@ wheels/
 # Virtual Environment
 venv/
 ENV/
+.venv/
+fresh_env/
 
 # IDE
 .idea/
@@ -36,4 +38,19 @@ ENV/
 
 # OS
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Temporary files
+temp_*.csv
+temp_*.json
+temp_*.geojson
+
+# Large files not needed for the app
+*.png
+decode-surveillance-nyc/data/panorama_url.csv
+decode-surveillance-nyc/data/cameras.csv
+decode-surveillance-nyc/data/counts_per_intersections.csv
+
+# Keep these datasets
+!data/nyc/*
+!data/philadelphia/*
